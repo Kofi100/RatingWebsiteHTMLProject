@@ -76,7 +76,7 @@ body{
     
 }
 
-.cardRating__ratingRow *:hover{
+.cardRating__ratingRow *:hover ,.cardRating__ratingRow *:focus{
     background-color:var(--Orange);
     color: var(--DarkBlue);
     cursor: pointer;
@@ -86,7 +86,7 @@ body{
 display: flex;
 justify-content: center;
 margin: 2rem 0rem 0rem 0rem;
-:hover{
+:hover,:focus{
     background-color:var(--White);
     cursor: pointer;
 }
